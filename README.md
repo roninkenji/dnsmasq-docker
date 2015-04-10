@@ -7,8 +7,8 @@ Dnsmasq provides network infrastructure for small networks: DNS, DHCP, router ad
 ## Directions:
 
 ### Data Volumes:
- * /etc/dnsmasq.d : in this path Transmission will store it's configuration files.
- * /tftpboot : in this path Transmission will store the PXE Bootfiles
+ * /etc/dnsmasq.d : in this path Dnsmasq will store it's configuration files.
+ * /tftpboot : in this path Dnsmasq will store the PXE Bootfiles
 
 ### Network Ports:
  * 53/tcp : DNS server port
