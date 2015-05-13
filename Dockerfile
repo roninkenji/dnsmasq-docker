@@ -1,7 +1,7 @@
 FROM roninkenji/slackware-base:latest
 MAINTAINER roninkenji
 
-RUN slackpkg -batch=on -default_answer=yes install dnsmasq && rm -rv /usr/doc
+RUN slackpkg -batch=on -default_answer=yes install dnsmasq
 
 VOLUME ["/etc/dnsmasq.d", "/tftpboot" ]
 EXPOSE 53 67 69
